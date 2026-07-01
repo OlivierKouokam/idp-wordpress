@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/standujar/tp-perso-vcluster.git
+    repoURL: https://github.com/OlivierKouokam/idp-wordpress.git
     targetRevision: main
     path: argo-cd/crossplane-resources-manifests/resources
   destination:
@@ -25,7 +25,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/standujar/tp-perso-vcluster.git
+    repoURL: https://github.com/OlivierKouokam/idp-wordpress.git
     targetRevision: main
     path: argo-cd/crossplane-resources-manifests
   destination:
