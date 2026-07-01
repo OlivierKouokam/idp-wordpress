@@ -23,9 +23,12 @@ spec:
           forProvider:
             namespace: tp-perso
             chart:
+              # name: mariadb
+              # repository: https://charts.bitnami.com/bitnami
+              # version: "18.2.0"
               name: mariadb
               repository: https://charts.bitnami.com/bitnami
-              version: "18.2.0"
+              version: "11.5.7"
             values:
               image:
                 debug: true
